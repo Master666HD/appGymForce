@@ -1,6 +1,8 @@
 package com.example.gymforce;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,4 +23,11 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
+
+    public void frecuencia(View v)
+    {
+        Intent it = new Intent(getApplicationContext(), Frecuencia.class);
+        startActivity(it);
+    }
+
 }
