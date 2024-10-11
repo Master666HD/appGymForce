@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListaEjercicios">
+
+    <!-- RecyclerView para listar los días con rutinas -->
+
+    <!-- Botones para agregar/ver rutina -->
+
+    <TextView
+        android:id="@+id/tvRoutineTitle"
+        android:layout_width="299dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="36dp"
+        android:paddingBottom="16dp"
+        android:text="Rutina de la Semana"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rc_ejercicios"
+        android:layout_width="409dp"
+        android:layout_height="738dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvRoutineTitle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -69,7 +69,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
     <EditText
-        android:id="@+id/editTextNumber1"
+        android:id="@+id/etSeries"
         android:layout_width="69dp"
         android:layout_height="43dp"
         android:layout_marginStart="4dp"
@@ -82,7 +82,7 @@
         app:layout_constraintTop_toBottomOf="@+id/txtNomEjer" />
 
     <EditText
-        android:id="@+id/editTextNumber2"
+        android:id="@+id/etReps"
         android:layout_width="69dp"
         android:layout_height="43dp"
         android:layout_marginStart="12dp"
@@ -90,30 +90,7 @@
         android:ems="10"
         android:inputType="number"
         app:layout_constraintStart_toEndOf="@+id/textView1"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber1" />
-
-    <EditText
-        android:id="@+id/editTextNumber3"
-        android:layout_width="69dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="16dp"
-        android:ems="10"
-        android:inputType="number"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/textView16"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber1" />
-
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:text="a"
-        android:textSize="17sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/editTextNumber2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber1" />
+        app:layout_constraintTop_toBottomOf="@+id/etSeries" />
 
     <TextView
         android:id="@+id/textView17"
@@ -128,10 +105,32 @@
         app:layout_constraintTop_toBottomOf="@+id/textView1" />
 
     <CheckBox
+        android:id="@+id/chMartes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="Martes"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/chLunes"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <CheckBox
+        android:id="@+id/chLunes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="16dp"
+        android:text="Lunes"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <CheckBox
         android:id="@+id/chDomingo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="4dp"
         android:text="Domingo"
         android:textSize="15sp"
@@ -142,7 +141,7 @@
         android:id="@+id/chViernes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="4dp"
         android:text="Viernes"
         android:textSize="15sp"
@@ -150,43 +149,10 @@
         app:layout_constraintTop_toBottomOf="@+id/chLunes" />
 
     <CheckBox
-        android:id="@+id/chLunes"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:text="Lunes"
-        android:textSize="15sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView17" />
-
-    <CheckBox
-        android:id="@+id/chMiercoles"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:text="Miércoles"
-        android:textSize="15sp"
-        app:layout_constraintStart_toEndOf="@+id/chMartes"
-        app:layout_constraintTop_toBottomOf="@+id/textView17" />
-
-    <CheckBox
-        android:id="@+id/chJueves"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="16dp"
-        android:text="Jueves"
-        android:textSize="15sp"
-        app:layout_constraintStart_toEndOf="@+id/chMiercoles"
-        app:layout_constraintTop_toBottomOf="@+id/textView17" />
-
-    <CheckBox
         android:id="@+id/chSabado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="44dp"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="64dp"
         android:text="Sábado"
         android:textSize="15sp"
@@ -194,27 +160,38 @@
         app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
     <CheckBox
-        android:id="@+id/chMartes"
+        android:id="@+id/chJueves"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="28dp"
         android:layout_marginTop="16dp"
-        android:text="Martes"
+        android:text="Jueves"
         android:textSize="15sp"
-        app:layout_constraintStart_toEndOf="@+id/chLunes"
+        app:layout_constraintStart_toEndOf="@+id/chMiercoles"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <CheckBox
+        android:id="@+id/chMiercoles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:text="Miércoles"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/chMartes"
         app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnMostar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="40dp"
         android:text="VER RUTINA"
         android:textSize="17sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.211"
+        app:layout_constraintHorizontal_bias="0.302"
         app:layout_constraintStart_toEndOf="@+id/btnRegistrarDias"
         app:layout_constraintTop_toBottomOf="@+id/chDomingo" />
 
@@ -222,7 +199,7 @@
         android:id="@+id/btnRegistrarDias"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
+        android:layout_marginStart="80dp"
         android:layout_marginTop="44dp"
         android:text="AGREGAR"
         android:textSize="17sp"

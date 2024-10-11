@@ -8,30 +8,21 @@
     tools:context=".Menu">
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="328dp"
-        android:layout_height="132dp"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="499dp"
+        android:id="@+id/imgCrearRutina"
+        android:layout_width="353dp"
+        android:layout_height="181dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="631dp"
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="PROGRESO"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="264dp"
-        tools:layout_editor_absoluteY="512dp" />
-
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="328dp"
-        android:layout_height="132dp"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="338dp"
+        android:id="@+id/imgCrearRutina"
+        android:layout_width="352dp"
+        android:layout_height="172dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="418dp"
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
     <TextView
@@ -40,50 +31,64 @@
         android:layout_height="wrap_content"
         android:text="PESO CORPORAL"
         android:textColor="#000000"
-        android:textSize="20sp"
+        android:textSize="30sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="208dp"
-        tools:layout_editor_absoluteY="352dp" />
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="444dp" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="52dp"
         android:text="G Y M  F O R C E"
-        android:textSize="35sp"
+        android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/txtUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="44dp"
         android:text="User"
-        android:textSize="16sp"
+        android:textSize="19sp"
         app:layout_constraintTop_toBottomOf="@+id/textView8"
-        tools:layout_editor_absoluteX="78dp" />
+        tools:layout_editor_absoluteX="72dp" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="328dp"
-        android:layout_height="132dp"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="186dp"
+        android:id="@+id/imgCrearRutina"
+        android:layout_width="350dp"
+        android:layout_height="169dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtUsuario"
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="RUTINAS"
         android:textColor="#000000"
-        android:textSize="20sp"
+        android:textSize="30sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="283dp"
-        tools:layout_editor_absoluteY="199dp" />
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡CREAR TU RUTINA!"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="693dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -55,7 +55,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <EditText
-        android:id="@+id/Et_Contraseña"
+        android:id="@+id/et_Contraseña"
         android:layout_width="289dp"
         android:layout_height="46dp"
         android:layout_marginStart="72dp"
@@ -78,7 +78,7 @@
         app:layout_constraintTop_toBottomOf="@+id/et_Usuario" />
 
     <Button
-        android:id="@+id/btnIniciar"
+        android:id="@+id/btnIniciarSesion"
         android:layout_width="160dp"
         android:layout_height="65dp"
         android:layout_marginTop="88dp"
@@ -88,10 +88,10 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Et_Contraseña" />
+        app:layout_constraintTop_toBottomOf="@+id/et_Contraseña" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txtRegistro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
@@ -100,7 +100,7 @@
         android:textColor="#D32F2F"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnIniciar" />
+        app:layout_constraintTop_toBottomOf="@+id/btnIniciarSesion" />
 
     <TextView
         android:id="@+id/textView5"
@@ -112,6 +112,6 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnIniciar" />
+        app:layout_constraintTop_toBottomOf="@+id/btnIniciarSesion" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
