@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="180dp"
-        android:text="GYM FORCE"
+        android:text="G Y M   F O R C E"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textSize="35sp"
         android:textStyle="bold"
