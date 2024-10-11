@@ -53,12 +53,12 @@
         android:text="Ejercicio :"
         android:textSize="19sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/txtNomEjer"
+        app:layout_constraintEnd_toStartOf="@+id/txtEjercicio"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
     <TextView
-        android:id="@+id/txtNomEjer"
+        android:id="@+id/txtEjercicio"
         android:layout_width="0dp"
         android:layout_height="30dp"
         android:layout_marginTop="56dp"
@@ -79,7 +79,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/txtNomEjer" />
+        app:layout_constraintTop_toBottomOf="@+id/txtEjercicio" />
 
     <EditText
         android:id="@+id/etReps"

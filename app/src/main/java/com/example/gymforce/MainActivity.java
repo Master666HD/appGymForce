@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void frecuencia(View v)
     {
-        Intent it = new Intent(getApplicationContext(), Frecuencia.class);
+        Intent it = new Intent(getApplicationContext(), Registro.class);
         startActivity(it);
     }
 
