@@ -13,13 +13,10 @@
         android:theme="@style/Theme.GymForce"
         tools:targetApi="31">
         <activity
+            android:name=".Progreso"
+            android:exported="false" />
+        <activity
             android:name=".Consejos"
-            android:exported="false" />
-        <activity
-            android:name=".consejos"
-            android:exported="false" />
-        <activity
-            android:name=".Recomendacion"
             android:exported="false" />
         <activity
             android:name=".ListaEjercicios"
