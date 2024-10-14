@@ -8,6 +8,8 @@
         android:minSdkVersion="23"
         android:targetSdkVersion="34" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <permission
         android:name="com.example.gymforce.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
@@ -26,7 +28,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.GymForce" >
+        android:theme="@style/Theme.GymForce"
+        android:usesCleartextTraffic="true" >
         <activity
             android:name="com.example.gymforce.Progreso"
             android:exported="false" />

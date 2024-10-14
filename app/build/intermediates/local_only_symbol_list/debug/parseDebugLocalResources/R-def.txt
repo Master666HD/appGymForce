@@ -5,6 +5,8 @@ color white
 drawable day_selector
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id apellidPat
+id apellidoMat
 id asDomingo
 id asJueves
 id asLunes
@@ -14,9 +16,9 @@ id asSabado
 id asViernes
 id btnCalcular
 id btnFrecuencia
-id btnIniciar
 id btnIniciarSesion
 id btnMostar
+id btnRegistar
 id btnRegistrarDias
 id chDomingo
 id chJueves
@@ -25,7 +27,6 @@ id chMartes
 id chMiercoles
 id chSabado
 id chViernes
-id etApellidos
 id etCalorias
 id etContra
 id etCorreo
@@ -36,7 +37,6 @@ id etNombre
 id etPeso
 id etReps
 id etSeries
-id etTelefono
 id etUsuario
 id et_Contraseña
 id et_Usuario

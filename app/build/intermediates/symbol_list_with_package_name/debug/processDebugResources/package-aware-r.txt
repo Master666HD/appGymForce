@@ -3194,6 +3194,8 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id apellidPat
+id apellidoMat
 id arc
 id asConfigured
 id asDomingo
@@ -3221,9 +3223,9 @@ id bounceEnd
 id bounceStart
 id btnCalcular
 id btnFrecuencia
-id btnIniciar
 id btnIniciarSesion
 id btnMostar
+id btnRegistar
 id btnRegistrarDias
 id buttonPanel
 id cache_measures
@@ -3314,7 +3316,6 @@ id endToStart
 id enterAlways
 id enterAlwaysCollapsed
 id escape
-id etApellidos
 id etCalorias
 id etContra
 id etCorreo
@@ -3325,7 +3326,6 @@ id etNombre
 id etPeso
 id etReps
 id etSeries
-id etTelefono
 id etUsuario
 id et_Contraseña
 id et_Usuario
