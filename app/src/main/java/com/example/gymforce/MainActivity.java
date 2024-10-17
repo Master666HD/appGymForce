@@ -106,9 +106,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void registro(View v)
     {
-        Intent it =new Intent(getApplicationContext(), Registro.class);
+        Intent it = new Intent(getApplicationContext(), CrearRutina.class);
         startActivity(it);
     }
-
 
 }

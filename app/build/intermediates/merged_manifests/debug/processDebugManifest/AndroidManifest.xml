@@ -31,6 +31,9 @@
         android:theme="@style/Theme.GymForce"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.example.gymforce.Objetivos"
+            android:exported="false" />
+        <activity
             android:name="com.example.gymforce.Progreso"
             android:exported="false" />
         <activity

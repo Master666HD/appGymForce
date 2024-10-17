@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:2:1-53:12
+ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:2:1-56:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Nacho\.gradle\caches\transforms-3\f5a615678d2bef0189a79e995ebe778e\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Nacho\.gradle\caches\transforms-3\5b72d85536d20dd8ec8dff50b12c1895\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Nacho\.gradle\caches\transforms-3\b0544c2c7f44fa02276748616386766f\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
@@ -63,12 +63,12 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Nacho\.
 	xmlns:android
 		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:5:5-66
+ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
 		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:7:5-51:19
-INJECTED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:7:5-51:19
+ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:7:5-54:19
+INJECTED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:7:5-54:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Nacho\.gradle\caches\transforms-3\f5a615678d2bef0189a79e995ebe778e\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Nacho\.gradle\caches\transforms-3\f5a615678d2bef0189a79e995ebe778e\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Nacho\.gradle\caches\transforms-3\5b72d85536d20dd8ec8dff50b12c1895\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -104,75 +104,81 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Na
 	android:allowBackup
 		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:16:9-46
+		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:15:9-46
 	android:dataExtractionRules
 		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:9:9-65
 	android:usesCleartextTraffic
-		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:15:9-44
-activity#com.example.gymforce.Progreso
+		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:16:9-44
+activity#com.example.gymforce.Objetivos
 ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:18:9-20:40
 	android:exported
 		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:19:13-37
-activity#com.example.gymforce.Consejos
+		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:19:13-38
+activity#com.example.gymforce.Progreso
 ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:21:9-23:40
 	android:exported
 		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:23:13-37
 	android:name
 		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:22:13-37
-activity#com.example.gymforce.ListaEjercicios
+activity#com.example.gymforce.Consejos
 ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:24:9-26:40
 	android:exported
 		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:25:13-44
-activity#com.example.gymforce.Frecuencia
+		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:25:13-37
+activity#com.example.gymforce.ListaEjercicios
 ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:27:9-29:40
 	android:exported
 		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:28:13-39
-activity#com.example.gymforce.CrearRutina
+		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:28:13-44
+activity#com.example.gymforce.Frecuencia
 ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:30:9-32:40
 	android:exported
 		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:31:13-40
-activity#com.example.gymforce.Rutinas
+		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:31:13-39
+activity#com.example.gymforce.CrearRutina
 ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:33:9-35:40
 	android:exported
 		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:35:13-37
 	android:name
-		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:34:13-36
-activity#com.example.gymforce.Menu
+		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:34:13-40
+activity#com.example.gymforce.Rutinas
 ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:36:9-38:40
 	android:exported
 		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:38:13-37
 	android:name
-		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:37:13-33
-activity#com.example.gymforce.Registro
+		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:37:13-36
+activity#com.example.gymforce.Menu
 ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:39:9-41:40
 	android:exported
 		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:41:13-37
 	android:name
-		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:40:13-37
-activity#com.example.gymforce.MainActivity
-ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:42:9-50:20
+		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:40:13-33
+activity#com.example.gymforce.Registro
+ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:42:9-44:40
 	android:exported
-		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:44:13-36
+		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:44:13-37
 	android:name
-		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:43:13-41
+		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:43:13-37
+activity#com.example.gymforce.MainActivity
+ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:45:9-53:20
+	android:exported
+		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:47:13-36
+	android:name
+		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:46:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:45:13-49:29
+ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:48:13-52:29
 action#android.intent.action.MAIN
-ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:46:17-69
+ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:49:17-69
 	android:name
-		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:46:25-66
+		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:49:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:48:17-77
+ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:51:17-77
 	android:name
-		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:48:27-74
+		ADDED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml:51:27-74
 uses-sdk
 INJECTED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\VisualAndroid\GymForce\app\src\main\AndroidManifest.xml

@@ -1,4 +1,4 @@
-#Mon Oct 14 00:46:39 BOT 2024
+#Mon Oct 14 15:23:21 BOT 2024
 base.0=D\:\\VisualAndroid\\GymForce\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=D\:\\VisualAndroid\\GymForce\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=D\:\\VisualAndroid\\GymForce\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
